@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 2 - Condiciones en JS Selector de Stickers</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <h1>Selector de Stickers</h1>
+
+    <!-- Sección para el primer sticker -->
+    <div class="contenedor-sticker">
+        <img src="./assets/img/imgGithub.png" alt="Sticker 1">
+        <input type="number" id="sticker1" placeholder="Cantidad">
+    </div>
+
+    <!-- Sección para el segundo sticker -->
+    <div class="contenedor-sticker">
+        <img src="./assets/img/imgSlack.png" alt="Sticker 2">
+        <input type="number" id="sticker2" placeholder="Cantidad">
+    </div>
+
+    <!-- Sección para el tercer sticker -->
+    <div class="contenedor-sticker">
+        <img src="./assets/img/imgGit.png" alt="Sticker 3">
+        <input type="number" id="sticker3" placeholder="Cantidad">
+    </div>
+
+    <!-- Botón para calcular la cantidad total de stickers -->
+    <button onclick="calcularStickers()">Calcular</button>
+
+    <!-- Párrafo para mostrar el resultado -->
+    <p id="resultado"></p>
+
+    <!-- Archivo JavaScript para manejar la lógica -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
